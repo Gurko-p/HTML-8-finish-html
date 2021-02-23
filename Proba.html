@@ -1,0 +1,213 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Сайт на HTML5 от BBW.BY</title>
+		<!--[if IE]>
+			<script>
+				document.createElement('header');
+				document.createElement('nav');
+				document.createElement('section');
+				document.createElement('article');
+				document.createElement('aside');
+				document.createElement('footer');
+			</script>
+		<![endif]-->
+		<style type="text/css">
+/* обнуляем все элементы */
+		* 
+			{
+			margin:0;
+			padding:0;
+			outline:none;
+} 
+
+body		{
+			background-color: #4E4E4E;
+}
+h1, h2, h3, h4, h5, h6 
+			{
+			margin:0px;
+			padding:0px;
+			font-family: Arial;
+			color: #323232;
+} 	
+.container {
+			width: 900px;
+			height: 800px;
+			margin: 10px auto;
+			background: #BBBBBB;
+}
+.logo	{
+			width: 900px;
+			height: 200px;
+			margin-bottom: 0px;
+}
+
+/* меню навигации */ 
+.navigate{
+			width: 100%;
+			height: 50px;
+			background-color: #6A94D4;
+			color: white;
+}
+nav{
+			width:100%;
+			height:32px;
+			background:#787878;
+} 
+nav li{
+			float: left;
+			margin: 0px 10px 0px 20px;
+			padding: 5px;
+			color:#fff;
+} 
+nav ul{
+			list-style-type: none;
+}
+nav a{
+			font-size: 14pt;
+			color:#fff;
+			text-decoration: none;
+}
+nav a:hover{
+			text-decoration: underline;
+}
+
+main{		
+			width: 900px;
+			height: 100%;
+			border: 2px solid black;
+			background: #BBBBBB;
+}
+
+article {	
+			float: left;
+			width: 640px;
+			height: 100%;
+			border: 2px solid black;
+			background: #BBBBBB;
+}
+
+
+aside {		float: right;
+			width: 245px;
+			height: 100%;
+			border: 2px solid black;
+			background: #BBBBBB;
+}
+
+aside nav {
+			background: #BBBBBB;
+}
+footer {	width: 900px;
+			height: 60px;
+			border: 2px solid black;
+			background: #BBBBBB;
+}
+.contact {
+			float: right;
+			width: 245px;
+			height: 100%;
+			border: 2px solid black;
+			background: #BBBBBB;
+			text-align: center;
+}
+
+.contact a img:hover{
+			width: 30px;
+}
+.content {	
+			padding: 10px;
+			text-indent: 20px;
+			text-align: justify;
+			font-size: 12pt;
+			font-family: Arial;
+			line-height: 2em;
+
+}
+.space	{
+			padding: 20px 10px 0px 10px;
+			text-align: center;
+}
+.aside_nav {
+			padding: 10px 0px 0px 20px;
+			line-height: 2em;
+}
+
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			
+			<!-- Логотип -->
+			<header>
+				<h2 style=visibility: hidden>Логотип</h2>
+				<img class="logo" src="Logotip.jpg" alt="Логотип компании">
+			</header>
+
+			
+			 <!-- Панель навигации -->
+			<nav>
+				<h2 style=visibility: hidden>Навигация</h2>
+				<ul>
+					<li><a href="/about_company/">Главная</a></li>
+					<li><a href="/service/">Акции</a></li>
+					<li><a href="/clients/">Топ 100</a></li>
+					<li><a href="/portfolio/">Новости</a></li>
+					<li><a href="/article/">Контакты</a></li>
+				</ul>
+			</nav>
+			
+			<!-- Основной блок контента -->
+			<main>
+			
+					<!-- Левый блок основного контента -->
+					<article>
+						<h3 style=visibility: hidden>Наш магазин предлагает:</h3>
+						<h3 class="space">Мы рады приветствовать Вас Дорогой читатель!</h3>
+						<p class="content">В нашем книжном доме, где для каждого мы предложим Вашему вниманию
+							литературу любого формата и на любой вкус. Огромный выбор печатных изданий, изданий в любом из существующих электронных форматов.
+							Возможность заказывать книги на почту и с доставкой на дом курьером бесплатно в течение суток с момента заказа.
+							Качествено проконсультируем и поможем подобрать научную и художественную литературу по категориям.
+							Вы можете ознакомиться и приобрести книгу исходя из 
+							рейтинга, который составляется на основе опроса наших покупателей
+							и сделать правильный выбор для приятного времяпрепровождения
+							в компании с замечательной книгой.
+							Наш магазин работает уже более 20 лет и знает толк в своем деле!
+						</p>
+					</article>
+					
+						<!-- Сайд бар -->
+					<aside>
+						<h3 class="content">Наши партнеры</h3>
+						<nav>
+						<h3 style=visibility: hidden>Наши партнеры</h3>
+						<p class="aside_nav">
+							<a href="https://oz.by/">OZ.by</a><br>
+							<a href="https://oz.by/">OZ.by</a><br>
+							<a href="https://oz.by/">OZ.by</a></p>
+						</nav>
+					</aside>
+
+			</main><!-- Окончание основного блок контента -->
+			
+			<!-- Нижняя часть контента -->
+			<footer>
+				<article>
+				<p align="center"><img src="location.png" align="center" alt="Адрес" width="25">Юридический адрес: г. Минск, пр-т Машерова, д. 6<br>
+				Copyright &copy; 2021 <a href="/" rel="copyright">BooksLandia Belarus</a>. All rights reserved.</p>
+				</article>
+					<div class="contact">
+					<strong>Связаться с нами:</strong><br>
+					<a href="tel: +375291111111" title="+375(29)111 11 11"><img src="phone.png" alt="Телефон" width="25"></a>
+					<a href="mailto:gurko-p@mail.ru" title="gurko-p@mail.ru"><img src="mail.png" alt="Почта" width="25"></a>
+				    <a href="skype:gurko-p@mail.ru" title="gurko-p"><img src="skype.png" alt="Скайп" width="25"></a>
+					<a href="tg://resolve?domain=Pavel" title="Написать в телеграмм"><img src="telegramm.png" alt="Телеграмм" width="25"></a>
+					
+					</div>
+			</footer>
+		</div>
+	</body>
+</html>
+
